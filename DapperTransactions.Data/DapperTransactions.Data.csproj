@@ -17,4 +17,9 @@
       <PackageReference Include="Npgsql" Version="9.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Database\Scripts\Script0001 - Create Initial Tables.sql" />
+      <EmbeddedResource Include="Database\Scripts\Script0001 - Create Initial Tables.sql" />
+    </ItemGroup>
+
 </Project>
